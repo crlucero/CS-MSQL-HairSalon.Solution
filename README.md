@@ -9,14 +9,14 @@ This program will put the user in the shoes of a hair salon employee. They will 
 
 ## Specs
 #### Behavior: The program will ask the user to enter a stylist's name.
-* Example Input: "Victoria"
-* Example Output: Here are the list of all the stylists in your salon: Victoria
+* Example Input: "Styist1"
+* Example Output: Here are the list of all the stylists in your salon: Stylist1
 #### Behavior: The program allows user to see stylist details.
-* Example Input: Here are Victoria's details. 
-* Example output: List of Victoria's clients. (possibly put in reviews about Victoria if time?) 
-#### Behavior: Program gives option to add clients to Victoria's client list.
-* Example Input: "Jessica"
-* Example output: Jessica is now on Victoria's client list. 
+* Example Input: Here are Stylist1's details. 
+* Example output: List of Stylist1's clients. (possibly put in reviews about Stylist1 if time?) 
+#### Behavior: Program gives option to add clients to Stylist1's client list.
+* Example Input: "Client1"
+* Example output: Client1 is now on Stylist1's client list. 
 
 
 ## Setup/Installation Requirements
