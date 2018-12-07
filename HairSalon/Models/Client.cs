@@ -98,13 +98,13 @@ namespace HairSalon.Models
             int clientId = 0;
             string clientName = "";
             int clientStylistId = 0;
-            string clientNotes = "";
+            // string clientNotes = "";
             while (rdr.Read())
             {
                 clientId = rdr.GetInt32(0);
                 clientName = rdr.GetString(1);
                 clientStylistId = rdr.GetInt32(2);
-                clientNotes = rdr.GetString(3);
+                // clientNotes = rdr.GetString(3);
             }
             Client newClient = new Client(clientName, clientStylistId, clientId);
             conn.Close();
