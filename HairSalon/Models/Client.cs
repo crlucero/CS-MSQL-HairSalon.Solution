@@ -121,7 +121,7 @@ namespace HairSalon.Models
             MySqlConnection conn = DB.Connection();
             conn.Open();
             var cmd = conn.CreateCommand() as MySqlCommand;
-            cmd.CommandText = @"SELECT * FROM clients;";
+            cmd.CommandText = @"SELECT * FROM clients ORDER BY name;";
             var rdr = cmd.ExecuteReader() as MySqlDataReader;
             while (rdr.Read())
             {
