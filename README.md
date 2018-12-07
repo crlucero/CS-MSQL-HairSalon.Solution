@@ -19,12 +19,26 @@ This program will put the user in the shoes of a hair salon employee. They will 
 * Example output: Client1 is now on Stylist1's client list. 
 
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements to run program
 * Clone repository $ git clone repo name
 * Switch into the solution directory: $ cd HairSalon.Solution
 * To edit, open in text editor
 * To run program, navigate to HairSalon directory, run $ dotnet restore in terminal. 
 * Start webpage by using $ dotnet run in terminal and following localhost:5000 link.
+
+## Re-create my database and test database
+In MySQL:
+* CREATE DATABASE cristian_lucero;
+* USE cristian_lucero;
+* CREATE TABLE stylists (id serial PRIMARY KEY, name VARCHAR(255))
+* CREATE TABLE clients(id serial PRIMARY KEY, name VARCHAR(255, int stylist_id)
+## Replicate steps for test database.
+In MySQL:
+* CREATE DATABASE cristian_lucero_test;
+* USE cristian_lucero_test;
+* CREATE TABLE stylists (id serial PRIMARY KEY, name VARCHAR(255))
+* CREATE TABLE clients(id serial PRIMARY KEY, name VARCHAR(255, int stylist_id)
+
 
 
 
