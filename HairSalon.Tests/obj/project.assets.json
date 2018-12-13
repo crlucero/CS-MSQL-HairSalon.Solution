@@ -10991,11 +10991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/CristianLucero1/Desktop/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
+      "projectUniqueName": "/Users/CristianLucero1/Documents/Individual Projects/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
       "projectName": "HairSalon.Tests",
-      "projectPath": "/Users/CristianLucero1/Desktop/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
+      "projectPath": "/Users/CristianLucero1/Documents/Individual Projects/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
       "packagesPath": "/Users/CristianLucero1/.nuget/packages/",
-      "outputPath": "/Users/CristianLucero1/Desktop/HairSalon.Solution/HairSalon.Tests/obj/",
+      "outputPath": "/Users/CristianLucero1/Documents/Individual Projects/HairSalon.Solution/HairSalon.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/CristianLucero1/.nuget/NuGet/NuGet.Config"
@@ -11009,8 +11009,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Users/CristianLucero1/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj": {
-              "projectPath": "/Users/CristianLucero1/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj"
+            "/Users/CristianLucero1/Documents/Individual Projects/HairSalon.Solution/HairSalon/HairSalon.csproj": {
+              "projectPath": "/Users/CristianLucero1/Documents/Individual Projects/HairSalon.Solution/HairSalon/HairSalon.csproj"
             }
           }
         }
